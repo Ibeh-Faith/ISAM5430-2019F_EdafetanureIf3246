@@ -32,6 +32,7 @@ namespace ISAM5430.Classs01A
             Console.WriteLine("Welcome to c# programming," + person + ".");
 
             /*
+             * new
              * variables:
              * Data types:
              * 
