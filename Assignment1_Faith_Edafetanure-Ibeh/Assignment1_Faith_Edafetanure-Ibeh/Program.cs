@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment1_Faith_Edafetanure_Ibeh
+namespace HW1A
+
 {
     class Program
     {
