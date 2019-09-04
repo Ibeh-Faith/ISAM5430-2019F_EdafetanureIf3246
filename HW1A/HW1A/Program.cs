@@ -23,25 +23,25 @@ namespace HW1A
             if (op == "+")
             {
                 answer = num1 + num2;
-                Console.WriteLine(num1 + "+" + num2 + "=" + answer);
+                Console.WriteLine($"{num1} + {num2} = {answer}");
                 Console.ReadLine();
             }
             else if (op == "-")
             {
                 answer = num1 - num2;
-                Console.WriteLine(num1 + "-" + num2 + "=" + answer);
+                Console.WriteLine($"{num1} - {num2} = {answer}");
                 Console.ReadLine();
             }
             else if (op == "/")
             {
                 answer = num1 / num2;
-                Console.WriteLine(num1 + "/" + num2 + "=" + answer);
+                Console.WriteLine($"{num1} / {num2} = {answer}");
                 Console.ReadLine();
             }
             else if (op == "*")
             {
                 answer = num1 * num2;
-                Console.WriteLine(num1 + "*" + num2 + "=" + answer);
+                Console.WriteLine($"{num1} * {num2} = {answer}");
                 Console.ReadLine();
             }
             else
@@ -49,6 +49,6 @@ namespace HW1A
                 Console.WriteLine("You have not entered the right operation. Enter the right operation!");
                 Console.ReadLine();
             }
-        }
+        } 
     }
 }
