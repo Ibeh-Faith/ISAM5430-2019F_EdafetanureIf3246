@@ -11,36 +11,37 @@ namespace HW1A
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter number 1");
+            Console.WriteLine("Enter first number");
             string input = Console.ReadLine();
             int num1 = int.Parse(input);
-            Console.WriteLine("Enter number 2");
+            Console.WriteLine("Enter second number");
             input = Console.ReadLine();
             int num2 = Convert.ToInt32(input);
             Console.WriteLine("Enter the operation:(+, -, /, *)");
             string op = Console.ReadLine();
-            int answer;
+            
             if (op == "+")
             {
-                answer = num1 + num2;
+                int answer = num1 + num2;
                 Console.WriteLine($"{num1} + {num2} = {answer}");
                 Console.ReadLine();
             }
             else if (op == "-")
             {
-                answer = num1 - num2;
+                int answer = num1 - num2;
                 Console.WriteLine($"{num1} - {num2} = {answer}");
                 Console.ReadLine();
             }
             else if (op == "/")
             {
-                answer = num1 / num2;
+                double answer = 0.0;
+                answer = (double)num1 / num2;
                 Console.WriteLine($"{num1} / {num2} = {answer}");
                 Console.ReadLine();
             }
             else if (op == "*")
             {
-                answer = num1 * num2;
+                int answer = num1 * num2;
                 Console.WriteLine($"{num1} * {num2} = {answer}");
                 Console.ReadLine();
             }
@@ -49,6 +50,7 @@ namespace HW1A
                 Console.WriteLine("You have not entered the right operation. Enter the right operation!");
                 Console.ReadLine();
             }
-        } 
+
+        }
     }
 }

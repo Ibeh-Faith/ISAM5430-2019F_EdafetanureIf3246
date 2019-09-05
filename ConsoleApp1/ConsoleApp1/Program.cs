@@ -56,6 +56,8 @@ namespace ISAM5430.Classs01A
              * Boolean Operators
              *    ==, !=, >, <, >=, <=, &&, ||, !
              */
+
+            Console.WriteLine("*\n**\n***\n****\n*****");
         }
     }
 }
